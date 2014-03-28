@@ -1,0 +1,26 @@
+{
+	"name" : "puzzle/crawler",
+	"description" : "web crawler",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Nicolas Le Nardou",
+			"email" : "nico.ln@gmail.com"
+		}
+	],
+	"keywords" : [
+		"crawler",
+		"crawl"
+	],
+	"require" : {
+		"guzzle/guzzle" : "~3.8",
+		"puzzle/configuration" : "~1.4"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "~4.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Puzzle\\Crawling\\" : "src"
+		}
+	}
+}
