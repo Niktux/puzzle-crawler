@@ -1,0 +1,11 @@
+# Eclipse files
+.settings/
+.project
+.buildpath
+
+# Composer files
+composer.phar
+composer.lock
+vendor/
+
+
